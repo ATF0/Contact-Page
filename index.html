@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/font/material-icons.css">
+    <title>Document</title>
+
+    <style>
+        header{
+            background:url("IMG_0880.JPG");
+            background-size:cover;
+            background-position: center;
+            min-height: 300px;
+            font-style:italic;
+        }
+        @media screen and(max-width: 670px){
+            header{
+                min-height:500px;
+            }
+        }
+
+        .parallax-container{
+            background-size: contain;
+            width: 100%;
+            height: 300px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed ">
+            <nav class="nav-wrapper black">
+                <div class="container">
+                    <a href="" class="brand-logo bold">
+                        <i class="material-icons ">camera</i>
+                        ATF</a>
+                    <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Photo</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Kind</a></li>
+                    </ul>
+
+                    <ul class="sidenav" id="mobile-menu">
+                        <li><a href="#">Photo</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Kind</a></li>
+                    </ul>   
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section class="section container" id=contact>
+        <div class="row">
+            <div class="col s6 l5">
+                <h2>Let Us Know</h2>
+                <p>Leave us a message with regards to getting your photographs taken,
+                   edited and made magical! </p>
+            </div>
+            <div class="col s6 l5 offset-l2">
+                <form action="">
+                    <div class="row">
+                        <div class="col s6 l4">
+                            <div class="input-field">
+                                <input type="text" id="FirstName">
+                                <label for="FirstName">First Name</label>
+                            </div>
+                        </div>
+                        <div class="col s6 l4">
+                            <div class="input-field">
+                                <input type="text" id="LastName">
+                                <label for="LastName">Last Name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <input type="text"id="message-title">
+                        <label for="message-title">Message Title</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message"class="materialize-textarea" ></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    
+                </form>
+            </div>
+
+        </div>
+    </section>
+ 
+    <div class="parallax-container">
+        <div class="parallax"></div>
+        <img src="IMG_0880.JPG" class="responsive-img">
+    </div>
+
+    <footer class="page-footer black">
+        <div class="container center">
+            <p> Find me everywhere...</p>  
+        </div>
+        <div class="footer-copyright grey darken-4 center">
+        <div class="container white-text">
+           <p> Designed by A.T.F, 2020.</p> 
+        </div>
+        
+    </div>
+    </footer>
+    
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+</body>
+</html>
